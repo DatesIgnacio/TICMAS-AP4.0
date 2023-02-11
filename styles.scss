@@ -1,0 +1,92 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    background-color: aliceblue;
+    background: url(imagenes/pielSerpiente.jpg);
+    background-color: rgb(13, 26, 68);
+    opacity: 80%;
+
+}
+
+
+.logoID{
+    padding-top: 5%;
+    padding-left: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 275%;
+    text-shadow: 15px 15px 15px #000666;
+
+
+    
+}
+
+.navSup{
+background-color: aliceblue;
+   float: right;
+   padding: 1%;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+.presentacion{
+    display: block;
+    padding-bottom: 10%;
+}
+
+#fotoPerfil{
+   
+    padding: auto;
+    border-radius: 20%;
+    align-content: center;
+    margin:9% 25%;
+    margin-bottom: 0%;
+    width: 50%;
+    box-shadow: 15px 15px 30px rgb(9, 25, 59) ;
+
+}
+
+#perfil{
+    display: none;
+}
+
+#nombre{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#botones{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+
+}
+
+.btn{
+    margin-top: 5%;
+    box-shadow: -15px 15px 30px rgb(5, 12, 29) ;
+}
+
+
+#pie{
+    padding: 1%;
+    text-align: center;
+    text-justify: auto;
+    background-color: rgb(230, 175, 108); 
+}
+
+footer p{
+    font-size: 85%;
+    
+}
+
+.modal-body{
+    background-color: rgb(189, 206, 243);
+    text-align: justify;
+    font-size: large;
+}
