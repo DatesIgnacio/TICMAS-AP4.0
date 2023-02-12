@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio TICMAS ArgPrograma 4.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="barraSuperior">
+            <div>
+                <h1 class="logoID" onclick="volverFoto()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-activity" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" />
+                    </svg>
+                    ID
+                </h1>
+    </header>
+    </div>
+    <div>
+        <nav class="navSup" class="col">
+            <a href="index.html">PRINCIPAL</a>
+            <a href="https://github.com/DatesIgnacio">PROGRESO</a>
+        </nav>
+    </div>
+
+    </div>
+    </header>
+
+    <section class="presentacion">
+
+        <img id="fotoPerfil" class="img-thumbnail" onclick="cambiarFoto()" ;onclick="volverFoto()"
+            src="imagenes/fotoPerfilAdulto.jpg" alt="foto de perfil adulto">
+
+
+        <p id="nombre">
+            Ignacio José Dates
+        <p>
+
+
+        <div class="d-grid gap-2 col-6 mx-auto" id="botones">
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">WHATSAPP</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">WhatsApp</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Me podés mandar un mensaje de WhatsApp al 261-630-8100. ¡Número de la provincia de Mendoza, Argentina!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal"
+                data-bs-target="#correo">CORREO</button>
+            <div class="modal fade" id="correo" tabindex="-1" aria-labelledby="correo" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="expLaboral">CORREO</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            &#9745; Me podés enviar un correo electrónico a idatesut@gmail.com <br>
+                            &#9745; También una carta a Roque Sáenz Peña 1776, dpto. 2, Barrio Bombal, Godoy Cruz
+                            (C.P.:5501), Mendoza, Argentina. <br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+         
+
+        </div>
+
+    </section>
+
+    <footer id="pie">
+        <div>
+            <p>PROYECTO GENERADO EN EL MARCO DEL PROGRAMA TICMAS - PRIMEROS PASOS FRONT-END //
+                ARGENTINA PROGRAMA 4.0</p>
+        </div>
+    </footer>
+
+
+
+    <script src="bootstrap.min.js"></script>
+    <script src="proyectoTICMAS.js"></script>
+</body>
+
+</html>
