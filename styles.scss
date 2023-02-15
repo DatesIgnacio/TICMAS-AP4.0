@@ -91,3 +91,18 @@ footer p{
     text-align: justify;
     font-size: large;
 }
+
+@include media-breakpoint-up(md) { 
+    #fotoPerfil{
+   
+        padding: auto;
+        border-radius: 20%;
+        align-content: center;
+        margin:9% 25%;
+        margin-bottom: 0%;
+        width: 25%;
+        box-shadow: 15px 15px 30px rgb(9, 25, 59) ;
+    
+    }
+
+}
